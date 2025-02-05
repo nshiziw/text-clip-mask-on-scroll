@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .main{
   margin-bottom: 100vh;
 }
@@ -20,10 +23,4 @@
   mask-position: 52.35% center;
   mask-repeat: no-repeat;
   mask-size: 80%;
-}
-
-.stickyMask video{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
 }
